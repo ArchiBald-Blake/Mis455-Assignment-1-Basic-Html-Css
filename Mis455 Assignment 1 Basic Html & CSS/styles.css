@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h1 {
+    color: #333;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Page using display: flex */
+.container {
+    display: flex;
+   
+    flex-wrap: wrap ;
+    justify-content: space-evenly ;
+
+   width: 800px;
+   height: 300px;
+
+
+}
+
+
+.container2 {
+    display: flex;
+   
+    flex-wrap: wrap ;
+    justify-content: space-evenly ;
+
+    width: 800px;
+    height: 300px;
+
+}
+
+
+
+.container3 {
+    display: flex;
+   
+    flex-wrap: wrap ;
+    justify-content: space-evenly ;
+}
+
+
+
+/* Page using display: grid */
+.content1-grid {
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+
+body {
+
+    .norican-regular {
+        font-family: "Norican", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+}
